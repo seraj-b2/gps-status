@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding: 1.5em;
+    border: 1px solid #666;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    margin: 2em 0;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-group input, button{
+    padding: 1em 1em;
+    width: 600px;
+    background-color: #222;
+    border-radius: 2em;
+}
+button[type="submit"]{
+    padding: 1.2em 0;
+    background-color: rgb(214, 53, 53);
+    border: none;
+    border-radius: 2em;
+    font-weight: bold;
+}
+form p a{
+    color: #666;
+}
+
+.dataTables_wrapper{
+    padding: 1em;
+    border: 2px solid #444;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.dataTables_wrapper div{
+    margin: 1em 1em;
+}
+table{
+    width: 100%;
+}
+table tr{
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #444;
+    border-radius: 0.4em;
+}
+table th, table tr{
+    margin: 0 1em;
+    padding: 0.5em;
+    list-style: none;
+}
+.dataTables_filter label{
+    width: 100%;
+}
+.dataTables_filter input{
+    margin: 0 1em;
+    padding: 1em;
+    outline: none;
+    border: none;
+    width: 60%;
+    border-radius: 2em;
+    background-color: #222;
+}
+table thead th{
+    cursor: pointer;
+    font-weight: bold;
+}
